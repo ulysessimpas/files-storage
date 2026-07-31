@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ulyses G. Simpas personal portfolio website showcasing skills, projects, education, and contact information."
+    />
+    <title>Ulyses G. Simpas | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container">
+        <a href="#home" class="logo">UGS</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-menu">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+          <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+            <span class="toggle-icon">🌙</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-content reveal fade-up">
+            <p class="eyebrow">Hi, I'm</p>
+            <h1>ULYSES G. SIMPAS</h1>
+            <div class="typing-wrap">
+              <span class="typing-text"></span>
+              <span class="cursor">|</span>
+            </div>
+            <p class="intro">
+              I'm an Information Technology student who enjoys programming, learning new
+              technologies, and building simple applications.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View My Projects</a>
+              <a href="resume.txt" class="btn btn-secondary" download="Ulyses-Simpas-Resume.txt"
+                >Download Resume</a
+              >
+            </div>
+            <ul class="mini-stats">
+              <li><strong>2+</strong><span>Years learning</span></li>
+              <li><strong>5+</strong><span>Projects</span></li>
+              <li><strong>100%</strong><span>Curious mindset</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal fade-left">
+            <div class="avatar-card">
+              <div class="avatar-photo">UG</div>
+              <div class="status-badge">Available for work</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading reveal fade-up">
+            <p class="eyebrow">About Me</p>
+            <h2>Information Technology Student</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-card reveal fade-up">
+              <h3>Biography</h3>
+              <p>
+                I am a student passionate about using technology to create useful and
+                meaningful digital experiences. I enjoy exploring web development,
+                programming, and practical solutions that improve everyday life.
+              </p>
+            </div>
+
+            <div class="about-card reveal fade-up delayed-1">
+              <h3>Education</h3>
+              <p>
+                Bachelor of Science in Information Technology<br />
+                <strong>PHINMEAD</strong>
+              </p>
+            </div>
+
+            <div class="about-card reveal fade-up delayed-2">
+              <h3>Interests</h3>
+              <p>
+                Interested in Web Development and Python. I also enjoy gaming, learning
+                new programming languages, and exploring how technology works.
+              </p>
+            </div>
+
+            <div class="about-card reveal fade-up delayed-3">
+              <h3>Career Goals</h3>
+              <p>
+                My goal is to grow as a developer, build impactful projects, and someday
+                contribute to innovative software and web solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading reveal fade-up">
+            <p class="eyebrow">Skills</p>
+            <h2>What I Work With</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-group reveal fade-up">
+              <h3>Programming</h3>
+              <div class="skill-item">
+                <div class="skill-label"><span>HTML</span><span>90%</span></div>
+                <div class="progress"><span style="width: 90%"></span></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label"><span>CSS</span><span>88%</span></div>
+                <div class="progress"><span style="width: 88%"></span></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label"><span>JavaScript</span><span>75%</span></div>
+                <div class="progress"><span style="width: 75%"></span></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label"><span>Python</span><span>85%</span></div>
+                <div class="progress"><span style="width: 85%"></span></div>
+              </div>
+            </div>
+
+            <div class="skill-group reveal fade-up delayed-1">
+              <h3>Tools</h3>
+              <div class="tool-cards">
+                <span>Git</span>
+                <span>VS Code</span>
+                <span>GitHub</span>
+                <span>Figma</span>
+                <span>Terminal</span>
+                <span>Canva</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading reveal fade-up">
+            <p class="eyebrow">Projects</p>
+            <h2>My Best Work</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card reveal fade-up">
+              <div class="project-image rock-paper">
+                <span>🎮</span>
+              </div>
+              <div class="project-body">
+                <h3>Rock Paper Scissors Game</h3>
+                <p>
+                  A fun Python game where the player challenges the computer in a quick and
+                  engaging match-up.
+                </p>
+                <div class="tech-list">
+                  <span>Python</span>
+                  <span>Game Logic</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal fade-up delayed-1">
+              <div class="project-image ai-chat">
+                <span>💬</span>
+              </div>
+              <div class="project-body">
+                <h3>AI Chat Program</h3>
+                <p>
+                  An interactive chat application created to simulate simple AI-style
+                  conversations and user prompts.
+                </p>
+                <div class="tech-list">
+                  <span>Python</span>
+                  <span>AI Concepts</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal fade-up delayed-2">
+              <div class="project-image portfolio">
+                <span>🌐</span>
+              </div>
+              <div class="project-body">
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                  A responsive personal website designed to present my profile, projects,
+                  skills, and contact information professionally.
+                </p>
+                <div class="tech-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal fade-up delayed-3">
+              <div class="project-image research">
+                <span>📊</span>
+              </div>
+              <div class="project-body">
+                <h3>School Research Presentations</h3>
+                <p>
+                  Research-based presentation materials that analyze real topics and present
+                  insights in a clear, organized format.
+                </p>
+                <div class="tech-list">
+                  <span>Research</span>
+                  <span>Presentation</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section alt-bg">
+        <div class="container education-wrap reveal fade-up">
+          <div class="section-heading left-aligned">
+            <p class="eyebrow">Education</p>
+            <h2>Academic Background</h2>
+          </div>
+
+          <div class="education-card">
+            <div class="education-icon">🎓</div>
+            <div>
+              <h3>Bachelor of Science in Information Technology</h3>
+              <p>PHINMA-University of Iloilo</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact-grid">
+          <div class="contact-info reveal fade-up">
+            <div class="section-heading left-aligned">
+              <p class="eyebrow">Contact</p>
+              <h2>Let's Connect</h2>
+            </div>
+
+            <div class="contact-list">
+              <a href="mailto:Ulysessimpas@gmail.com"><span>✉️</span> Ulysessimpas@gmail.com</a>
+              <a href="https://github.com" target="_blank" rel="noreferrer"><span>💻</span> GitHub</a>
+              <a href="https://facebook.com/ulyses.simpas" target="_blank" rel="noreferrer"><span>📘</span> Facebook (Ulyses Simpas)</a>
+              <a href="tel:09093106695"><span>📞</span> 09093106695</a>
+            </div>
+          </div>
+
+          <form class="contact-form reveal fade-left" id="contact-form">
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your Name" required />
+            </div>
+
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="Your Email" required />
+            </div>
+
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Ulyses G. Simpas</p>
+        <p>Made with passion and curiosity.</p>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

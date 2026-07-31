@@ -1,0 +1,33 @@
+ULYSES G. SIMPAS
+Information Technology Student
+
+Profile
+I am an Information Technology student who enjoys programming, learning new technologies, and building simple applications.
+
+Skills
+- HTML
+- CSS
+- JavaScript
+- Python
+- Git
+- GitHub
+- VS Code
+
+Education
+Bachelor of Science in Information Technology
+PHINMA-University of Iloilo
+
+Interests
+- Web Development
+- Python
+- Gaming
+- Learning new programming languages
+
+Career Goals
+To grow as a developer, build useful projects, and contribute to impactful digital solutions.
+
+Contact
+Email: Ulysessimpas@gmail.com
+Phone: 09093106695
+Facebook: Ulyses Simpas
+GitHub: https://github.com
